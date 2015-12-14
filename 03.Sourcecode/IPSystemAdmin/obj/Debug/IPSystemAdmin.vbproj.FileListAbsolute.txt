@@ -1,0 +1,152 @@
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.pdb
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.xml
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\C1.Common.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.Classic.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPCommon.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPData.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPException.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPUserService.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\SiSButton.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\SiSMenu.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.Shared.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.Windows.Forms.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.ReportSource.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.pdb
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.xml
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPCommon.pdb
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPCommon.xml
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPData.pdb
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPData.xml
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPException.pdb
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPException.xml
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPUserService.pdb
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPUserService.xml
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbprojResolveAssemblyReference.cache
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f100_TuDien.resources
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f101_Dang_Nhap.resources
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f102_TuDien_DE.resources
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f996_license.resources
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.Resources.resources
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbproj.GenerateResource.Cache
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll.licenses
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.xml
+E:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.pdb
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.pdb
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.xml
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\C1.Common.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.Classic.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPCommon.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPData.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPException.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPUserService.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\SiSButton.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\SiSMenu.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.Shared.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.Windows.Forms.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.CrystalReports.Engine.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.ReportSource.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.pdb
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.xml
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPCommon.pdb
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPCommon.xml
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPData.pdb
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPData.xml
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPException.pdb
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPException.xml
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPUserService.pdb
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\bin\IPUserService.xml
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbprojResolveAssemblyReference.cache
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f100_TuDien.resources
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f101_Dang_Nhap.resources
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f102_TuDien_DE.resources
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f996_license.resources
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.Resources.resources
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbproj.GenerateResource.Cache
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll.licenses
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.xml
+H:\DVMCv3.0\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.pdb
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.pdb
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.xml
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\C1.Common.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.Classic.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPCommon.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPData.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPException.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPUserService.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\SiSButton.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\SiSMenu.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.Shared.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.Windows.Forms.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.CrystalReports.Engine.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.ReportSource.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.pdb
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.xml
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPCommon.pdb
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPCommon.xml
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPData.pdb
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPData.xml
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPException.pdb
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPException.xml
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPUserService.pdb
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\bin\IPUserService.xml
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbprojResolveAssemblyReference.cache
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f100_TuDien.resources
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f101_Dang_Nhap.resources
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f102_TuDien_DE.resources
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f996_license.resources
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.Resources.resources
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbproj.GenerateResource.Cache
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll.licenses
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.xml
+G:\BKI_DVMC\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPSystemAdmin.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\C1.Common.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.Classic.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPCommon.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPData.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPException.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPUserService.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\SiSButton.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\SiSMenu.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.Shared.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.Windows.Forms.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\CrystalDecisions.ReportSource.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPBusinessService.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPCommon.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPCommon.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPData.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPData.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPException.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPException.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPUserService.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\bin\IPUserService.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbprojResolveAssemblyReference.cache
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f100_TuDien.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f101_Dang_Nhap.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f102_TuDien_DE.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f996_license.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.Resources.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbproj.GenerateResource.Cache
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll.licenses
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPSystemAdmin\obj\Debug\IPSystemAdmin.pdb

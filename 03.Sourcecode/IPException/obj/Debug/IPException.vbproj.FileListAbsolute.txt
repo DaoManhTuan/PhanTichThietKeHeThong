@@ -1,0 +1,24 @@
+E:\DVMCv3.0\03.Sourcecode\IPException\bin\IPException.dll
+E:\DVMCv3.0\03.Sourcecode\IPException\bin\IPException.pdb
+E:\DVMCv3.0\03.Sourcecode\IPException\bin\IPException.xml
+E:\DVMCv3.0\03.Sourcecode\IPException\obj\Debug\IPException.dll
+E:\DVMCv3.0\03.Sourcecode\IPException\obj\Debug\IPException.xml
+E:\DVMCv3.0\03.Sourcecode\IPException\obj\Debug\IPException.pdb
+H:\DVMCv3.0\03.Sourcecode\IPException\bin\IPException.dll
+H:\DVMCv3.0\03.Sourcecode\IPException\bin\IPException.pdb
+H:\DVMCv3.0\03.Sourcecode\IPException\bin\IPException.xml
+H:\DVMCv3.0\03.Sourcecode\IPException\obj\Debug\IPException.dll
+H:\DVMCv3.0\03.Sourcecode\IPException\obj\Debug\IPException.xml
+H:\DVMCv3.0\03.Sourcecode\IPException\obj\Debug\IPException.pdb
+G:\BKI_DVMC\03.Sourcecode\IPException\bin\IPException.dll
+G:\BKI_DVMC\03.Sourcecode\IPException\bin\IPException.pdb
+G:\BKI_DVMC\03.Sourcecode\IPException\bin\IPException.xml
+G:\BKI_DVMC\03.Sourcecode\IPException\obj\Debug\IPException.dll
+G:\BKI_DVMC\03.Sourcecode\IPException\obj\Debug\IPException.xml
+G:\BKI_DVMC\03.Sourcecode\IPException\obj\Debug\IPException.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPException\bin\IPException.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPException\bin\IPException.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPException\bin\IPException.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPException\obj\Debug\IPException.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPException\obj\Debug\IPException.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPException\obj\Debug\IPException.pdb

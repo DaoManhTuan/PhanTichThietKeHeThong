@@ -1,0 +1,104 @@
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPUserService.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPUserService.pdb
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPUserService.xml
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\C1.Win.C1FlexGrid.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPBusinessService.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPCommon.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPData.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPException.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\C1.Win.C1FlexGrid.Classic.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\CrystalDecisions.Shared.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\CrystalDecisions.Windows.Forms.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\C1.Common.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\CrystalDecisions.ReportSource.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPBusinessService.pdb
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPBusinessService.xml
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPCommon.pdb
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPCommon.xml
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPData.pdb
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPData.xml
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPException.pdb
+E:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPException.xml
+E:\DVMCv3.0\03.Sourcecode\IPUserService\obj\Debug\IPUserService.vbprojResolveAssemblyReference.cache
+E:\DVMCv3.0\03.Sourcecode\IPUserService\obj\Debug\IPUserService.dll
+E:\DVMCv3.0\03.Sourcecode\IPUserService\obj\Debug\IPUserService.xml
+E:\DVMCv3.0\03.Sourcecode\IPUserService\obj\Debug\IPUserService.pdb
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPUserService.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPUserService.pdb
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPUserService.xml
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\C1.Win.C1FlexGrid.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPBusinessService.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPCommon.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPData.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPException.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\C1.Win.C1FlexGrid.Classic.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\CrystalDecisions.Shared.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\CrystalDecisions.Windows.Forms.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\CrystalDecisions.CrystalReports.Engine.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\C1.Common.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\CrystalDecisions.ReportSource.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPBusinessService.pdb
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPBusinessService.xml
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPCommon.pdb
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPCommon.xml
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPData.pdb
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPData.xml
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPException.pdb
+H:\DVMCv3.0\03.Sourcecode\IPUserService\bin\IPException.xml
+H:\DVMCv3.0\03.Sourcecode\IPUserService\obj\Debug\IPUserService.vbprojResolveAssemblyReference.cache
+H:\DVMCv3.0\03.Sourcecode\IPUserService\obj\Debug\IPUserService.dll
+H:\DVMCv3.0\03.Sourcecode\IPUserService\obj\Debug\IPUserService.xml
+H:\DVMCv3.0\03.Sourcecode\IPUserService\obj\Debug\IPUserService.pdb
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPUserService.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPUserService.pdb
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPUserService.xml
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\C1.Win.C1FlexGrid.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPBusinessService.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPCommon.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPData.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPException.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\C1.Win.C1FlexGrid.Classic.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\CrystalDecisions.Shared.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\CrystalDecisions.Windows.Forms.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\CrystalDecisions.CrystalReports.Engine.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\C1.Common.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\CrystalDecisions.ReportSource.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPBusinessService.pdb
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPBusinessService.xml
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPCommon.pdb
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPCommon.xml
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPData.pdb
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPData.xml
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPException.pdb
+G:\BKI_DVMC\03.Sourcecode\IPUserService\bin\IPException.xml
+G:\BKI_DVMC\03.Sourcecode\IPUserService\obj\Debug\IPUserService.vbprojResolveAssemblyReference.cache
+G:\BKI_DVMC\03.Sourcecode\IPUserService\obj\Debug\IPUserService.dll
+G:\BKI_DVMC\03.Sourcecode\IPUserService\obj\Debug\IPUserService.xml
+G:\BKI_DVMC\03.Sourcecode\IPUserService\obj\Debug\IPUserService.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPUserService.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPUserService.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPUserService.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\C1.Win.C1FlexGrid.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPBusinessService.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPCommon.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPData.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPException.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\C1.Win.C1FlexGrid.Classic.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\CrystalDecisions.Shared.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\CrystalDecisions.Windows.Forms.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\C1.Common.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\CrystalDecisions.ReportSource.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPBusinessService.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPBusinessService.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPCommon.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPCommon.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPData.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPData.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPException.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\bin\IPException.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\obj\Debug\IPUserService.vbprojResolveAssemblyReference.cache
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\obj\Debug\IPUserService.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\obj\Debug\IPUserService.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPUserService\obj\Debug\IPUserService.pdb

@@ -1,0 +1,40 @@
+E:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPBusinessService.dll
+E:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPBusinessService.pdb
+E:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPBusinessService.xml
+E:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPException.dll
+E:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPException.pdb
+E:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPException.xml
+E:\DVMCv3.0\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.vbprojResolveAssemblyReference.cache
+E:\DVMCv3.0\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.dll
+E:\DVMCv3.0\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.xml
+E:\DVMCv3.0\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.pdb
+H:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPBusinessService.dll
+H:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPBusinessService.pdb
+H:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPBusinessService.xml
+H:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPException.dll
+H:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPException.pdb
+H:\DVMCv3.0\03.Sourcecode\IPBusinessService\bin\IPException.xml
+H:\DVMCv3.0\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.vbprojResolveAssemblyReference.cache
+H:\DVMCv3.0\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.dll
+H:\DVMCv3.0\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.xml
+H:\DVMCv3.0\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.pdb
+G:\BKI_DVMC\03.Sourcecode\IPBusinessService\bin\IPBusinessService.dll
+G:\BKI_DVMC\03.Sourcecode\IPBusinessService\bin\IPBusinessService.pdb
+G:\BKI_DVMC\03.Sourcecode\IPBusinessService\bin\IPBusinessService.xml
+G:\BKI_DVMC\03.Sourcecode\IPBusinessService\bin\IPException.dll
+G:\BKI_DVMC\03.Sourcecode\IPBusinessService\bin\IPException.pdb
+G:\BKI_DVMC\03.Sourcecode\IPBusinessService\bin\IPException.xml
+G:\BKI_DVMC\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.vbprojResolveAssemblyReference.cache
+G:\BKI_DVMC\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.dll
+G:\BKI_DVMC\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.xml
+G:\BKI_DVMC\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPBusinessService\bin\IPBusinessService.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPBusinessService\bin\IPBusinessService.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPBusinessService\bin\IPBusinessService.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPBusinessService\bin\IPException.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPBusinessService\bin\IPException.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPBusinessService\bin\IPException.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.vbprojResolveAssemblyReference.cache
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPBusinessService\obj\Debug\IPBusinessService.pdb

@@ -1,0 +1,24 @@
+E:\DVMCv3.0\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.dll.config
+E:\DVMCv3.0\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.pdb
+E:\DVMCv3.0\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.csprojResolveAssemblyReference.cache
+E:\DVMCv3.0\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.dll.config
+H:\DVMCv3.0\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.csprojResolveAssemblyReference.cache
+H:\DVMCv3.0\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.dll.config
+G:\BKI_DVMC\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.csprojResolveAssemblyReference.cache
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.dll.config
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREDS\bin\Debug\IPCOREDS.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREDS\obj\Debug\IPCOREDS.csprojResolveAssemblyReference.cache

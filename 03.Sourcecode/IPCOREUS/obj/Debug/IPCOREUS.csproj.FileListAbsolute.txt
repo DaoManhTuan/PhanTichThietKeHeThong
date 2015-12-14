@@ -1,0 +1,132 @@
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\BondUS.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\BondUS.pdb
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPCOREDS.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\C1.Win.C1FlexGrid.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\C1.Win.C1FlexGrid.Classic.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.Shared.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPData.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\SiSButton.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPException.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\C1.Common.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.pdb
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.xml
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPCOREDS.pdb
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.pdb
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.xml
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.pdb
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.xml
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPData.pdb
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPData.xml
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPException.pdb
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPException.xml
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.pdb
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.xml
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\obj\Debug\IPCOREUS.csprojResolveAssemblyReference.cache
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\obj\Debug\BondUS.dll
+E:\DVMCv3.0\03.Sourcecode\IPCOREUS\obj\Debug\BondUS.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\BondUS.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\BondUS.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPCOREDS.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\C1.Win.C1FlexGrid.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\C1.Win.C1FlexGrid.Classic.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.Shared.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPData.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\SiSButton.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPException.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\C1.Common.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.ReportSource.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.xml
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPCOREDS.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.xml
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.xml
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPData.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPData.xml
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPException.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPException.xml
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.xml
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\obj\Debug\IPCOREUS.csprojResolveAssemblyReference.cache
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\obj\Debug\BondUS.dll
+H:\DVMCv3.0\03.Sourcecode\IPCOREUS\obj\Debug\BondUS.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\BondUS.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\BondUS.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPCOREDS.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\C1.Win.C1FlexGrid.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\C1.Win.C1FlexGrid.Classic.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.Shared.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPData.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\SiSButton.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPException.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\C1.Common.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.ReportSource.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.xml
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPCOREDS.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.xml
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.xml
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPData.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPData.xml
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPException.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPException.xml
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.xml
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\obj\Debug\IPCOREUS.csprojResolveAssemblyReference.cache
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\obj\Debug\BondUS.dll
+G:\BKI_DVMC\03.Sourcecode\IPCOREUS\obj\Debug\BondUS.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\BondUS.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\BondUS.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPCOREDS.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\C1.Win.C1FlexGrid.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\C1.Win.C1FlexGrid.Classic.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPData.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\SiSButton.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPException.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\C1.Common.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPCommon.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPCOREDS.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPSystemAdmin.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPUserService.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPData.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPData.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPException.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPException.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\bin\Debug\IPBusinessService.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\obj\Debug\IPCOREUS.csprojResolveAssemblyReference.cache
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\obj\Debug\BondUS.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCOREUS\obj\Debug\BondUS.pdb

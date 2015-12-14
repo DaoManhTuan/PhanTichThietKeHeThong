@@ -1,0 +1,118 @@
+E:\DVMCv3.0\03.Sourcecode\IPCommon\bin\IPCommon.dll
+E:\DVMCv3.0\03.Sourcecode\IPCommon\bin\IPCommon.pdb
+E:\DVMCv3.0\03.Sourcecode\IPCommon\bin\IPCommon.xml
+E:\DVMCv3.0\03.Sourcecode\IPCommon\bin\C1.Common.dll
+E:\DVMCv3.0\03.Sourcecode\IPCommon\bin\C1.Win.C1FlexGrid.Classic.dll
+E:\DVMCv3.0\03.Sourcecode\IPCommon\bin\C1.Win.C1FlexGrid.dll
+E:\DVMCv3.0\03.Sourcecode\IPCommon\bin\CrystalDecisions.CrystalReports.Engine.dll
+E:\DVMCv3.0\03.Sourcecode\IPCommon\bin\CrystalDecisions.ReportSource.dll
+E:\DVMCv3.0\03.Sourcecode\IPCommon\bin\CrystalDecisions.Shared.dll
+E:\DVMCv3.0\03.Sourcecode\IPCommon\bin\CrystalDecisions.Windows.Forms.dll
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IPCommon.vbprojResolveAssemblyReference.cache
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlButton2.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlButton3.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlClock.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgButtonYes_No_Cancel.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBtn_Yes_No.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.DataGrid_Custom.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.f370_REPORT_VIEW.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmEditText.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmIcons.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchDate.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchNumeric.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchString.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxForm_Yes_No.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxFormYes_No_Cancel.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxForm_OK.resources
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IPCommon.vbproj.GenerateResource.Cache
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IPCommon.dll
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IPCommon.xml
+E:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IPCommon.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCommon\bin\IPCommon.dll
+H:\DVMCv3.0\03.Sourcecode\IPCommon\bin\IPCommon.pdb
+H:\DVMCv3.0\03.Sourcecode\IPCommon\bin\IPCommon.xml
+H:\DVMCv3.0\03.Sourcecode\IPCommon\bin\C1.Common.dll
+H:\DVMCv3.0\03.Sourcecode\IPCommon\bin\C1.Win.C1FlexGrid.Classic.dll
+H:\DVMCv3.0\03.Sourcecode\IPCommon\bin\C1.Win.C1FlexGrid.dll
+H:\DVMCv3.0\03.Sourcecode\IPCommon\bin\CrystalDecisions.CrystalReports.Engine.dll
+H:\DVMCv3.0\03.Sourcecode\IPCommon\bin\CrystalDecisions.ReportSource.dll
+H:\DVMCv3.0\03.Sourcecode\IPCommon\bin\CrystalDecisions.Shared.dll
+H:\DVMCv3.0\03.Sourcecode\IPCommon\bin\CrystalDecisions.Windows.Forms.dll
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IPCommon.vbprojResolveAssemblyReference.cache
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlButton2.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlButton3.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlClock.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgButtonYes_No_Cancel.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBtn_Yes_No.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.DataGrid_Custom.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.f370_REPORT_VIEW.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmEditText.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmIcons.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchDate.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchNumeric.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchString.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxForm_Yes_No.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxFormYes_No_Cancel.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxForm_OK.resources
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IPCommon.vbproj.GenerateResource.Cache
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IPCommon.dll
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IPCommon.xml
+H:\DVMCv3.0\03.Sourcecode\IPCommon\obj\Debug\IPCommon.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCommon\bin\IPCommon.dll
+G:\BKI_DVMC\03.Sourcecode\IPCommon\bin\IPCommon.pdb
+G:\BKI_DVMC\03.Sourcecode\IPCommon\bin\IPCommon.xml
+G:\BKI_DVMC\03.Sourcecode\IPCommon\bin\C1.Common.dll
+G:\BKI_DVMC\03.Sourcecode\IPCommon\bin\C1.Win.C1FlexGrid.Classic.dll
+G:\BKI_DVMC\03.Sourcecode\IPCommon\bin\C1.Win.C1FlexGrid.dll
+G:\BKI_DVMC\03.Sourcecode\IPCommon\bin\CrystalDecisions.CrystalReports.Engine.dll
+G:\BKI_DVMC\03.Sourcecode\IPCommon\bin\CrystalDecisions.ReportSource.dll
+G:\BKI_DVMC\03.Sourcecode\IPCommon\bin\CrystalDecisions.Shared.dll
+G:\BKI_DVMC\03.Sourcecode\IPCommon\bin\CrystalDecisions.Windows.Forms.dll
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlButton2.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlButton3.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlClock.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgButtonYes_No_Cancel.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBtn_Yes_No.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.DataGrid_Custom.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.f370_REPORT_VIEW.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmEditText.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmIcons.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchDate.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchNumeric.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchString.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxForm_Yes_No.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxFormYes_No_Cancel.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxForm_OK.resources
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IPCommon.vbproj.GenerateResource.Cache
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IPCommon.dll
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IPCommon.xml
+G:\BKI_DVMC\03.Sourcecode\IPCommon\obj\Debug\IPCommon.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\bin\IPCommon.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\bin\IPCommon.pdb
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\bin\IPCommon.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\bin\C1.Common.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\bin\C1.Win.C1FlexGrid.Classic.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\bin\C1.Win.C1FlexGrid.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\bin\CrystalDecisions.ReportSource.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\bin\CrystalDecisions.Shared.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\bin\CrystalDecisions.Windows.Forms.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlButton2.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlButton3.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.ctlClock.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgButtonYes_No_Cancel.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBtn_Yes_No.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.DataGrid_Custom.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.f370_REPORT_VIEW.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmEditText.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmIcons.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchDate.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchNumeric.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.frmSearchString.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxForm_Yes_No.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxFormYes_No_Cancel.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IP.Core.IPCommon.MessageForms.MsgBoxForm_OK.resources
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IPCommon.vbproj.GenerateResource.Cache
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IPCommon.dll
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IPCommon.xml
+C:\Users\ManhTuan\Desktop\Phân tích thiết kế hệ thống\project\03.Sourcecode\IPCommon\obj\Debug\IPCommon.pdb
