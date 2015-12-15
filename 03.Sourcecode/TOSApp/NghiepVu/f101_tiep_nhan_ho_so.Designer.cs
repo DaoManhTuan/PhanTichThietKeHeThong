@@ -1,6 +1,6 @@
 ﻿namespace TOSApp.NghiepVu
 {
-    partial class f101_ho_so_thi_sinh
+    partial class f101_tiep_nhan_ho_so
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f101_ho_so_thi_sinh));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f101_tiep_nhan_ho_so));
             this.m_laypanel_main = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel12 = new System.Windows.Forms.Panel();
@@ -91,6 +91,12 @@
             this.m_cmd_tiep_nhan = new DevExpress.XtraEditors.SimpleButton();
             this.m_grc_diem_xet_tuyen = new DevExpress.XtraGrid.GridControl();
             this.m_grv_diem_xet_tuyen = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.m_col_ma_thi_sinh = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.m_col_ho_ten = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.m_col_nguyen_vong = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.m_col_nhom_nganh = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.m_col_to_hop_mon = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.m_col_diem_xet_tuyen = new DevExpress.XtraGrid.Columns.GridColumn();
             this.m_laypanel_main.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -779,11 +785,68 @@
             // 
             // m_grv_diem_xet_tuyen
             // 
+            this.m_grv_diem_xet_tuyen.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.m_col_ma_thi_sinh,
+            this.m_col_ho_ten,
+            this.m_col_nguyen_vong,
+            this.m_col_nhom_nganh,
+            this.m_col_to_hop_mon,
+            this.m_col_diem_xet_tuyen});
             this.m_grv_diem_xet_tuyen.GridControl = this.m_grc_diem_xet_tuyen;
             this.m_grv_diem_xet_tuyen.Name = "m_grv_diem_xet_tuyen";
+            this.m_grv_diem_xet_tuyen.OptionsBehavior.Editable = false;
+            // 
+            // m_col_ma_thi_sinh
+            // 
+            this.m_col_ma_thi_sinh.Caption = "Mã thí sinh";
+            this.m_col_ma_thi_sinh.FieldName = "MA_THI_SINH";
+            this.m_col_ma_thi_sinh.Name = "m_col_ma_thi_sinh";
+            this.m_col_ma_thi_sinh.Visible = true;
+            this.m_col_ma_thi_sinh.VisibleIndex = 0;
+            // 
+            // m_col_ho_ten
+            // 
+            this.m_col_ho_ten.Caption = "Họ Tên";
+            this.m_col_ho_ten.FieldName = "HO_TEN";
+            this.m_col_ho_ten.Name = "m_col_ho_ten";
+            this.m_col_ho_ten.Visible = true;
+            this.m_col_ho_ten.VisibleIndex = 1;
+            // 
+            // m_col_nguyen_vong
+            // 
+            this.m_col_nguyen_vong.Caption = "Nguyện vọng";
+            this.m_col_nguyen_vong.FieldName = "NGUYEN_VONG";
+            this.m_col_nguyen_vong.Name = "m_col_nguyen_vong";
+            this.m_col_nguyen_vong.Visible = true;
+            this.m_col_nguyen_vong.VisibleIndex = 2;
+            // 
+            // m_col_nhom_nganh
+            // 
+            this.m_col_nhom_nganh.Caption = "Nhóm ngành";
+            this.m_col_nhom_nganh.FieldName = "MA_NGANH";
+            this.m_col_nhom_nganh.Name = "m_col_nhom_nganh";
+            this.m_col_nhom_nganh.Visible = true;
+            this.m_col_nhom_nganh.VisibleIndex = 3;
+            // 
+            // m_col_to_hop_mon
+            // 
+            this.m_col_to_hop_mon.Caption = "Tổ hợp môn";
+            this.m_col_to_hop_mon.FieldName = "TO_HOP_MON";
+            this.m_col_to_hop_mon.Name = "m_col_to_hop_mon";
+            this.m_col_to_hop_mon.Visible = true;
+            this.m_col_to_hop_mon.VisibleIndex = 4;
+            // 
+            // m_col_diem_xet_tuyen
+            // 
+            this.m_col_diem_xet_tuyen.Caption = "Điểm xét tuyển";
+            this.m_col_diem_xet_tuyen.FieldName = "DIEM_XT";
+            this.m_col_diem_xet_tuyen.Name = "m_col_diem_xet_tuyen";
+            this.m_col_diem_xet_tuyen.Visible = true;
+            this.m_col_diem_xet_tuyen.VisibleIndex = 5;
             // 
             // f101_ho_so_thi_sinh
             // 
+            this.AcceptButton = this.m_cmd_kiem_tra;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1149, 597);
@@ -892,5 +955,11 @@
         private System.Windows.Forms.Label m_lab_nhom_nganh_dang_ky;
         private System.Windows.Forms.CheckBox m_check_nv4;
         private System.Windows.Forms.Label label6;
+        private DevExpress.XtraGrid.Columns.GridColumn m_col_ma_thi_sinh;
+        private DevExpress.XtraGrid.Columns.GridColumn m_col_ho_ten;
+        private DevExpress.XtraGrid.Columns.GridColumn m_col_nguyen_vong;
+        private DevExpress.XtraGrid.Columns.GridColumn m_col_nhom_nganh;
+        private DevExpress.XtraGrid.Columns.GridColumn m_col_to_hop_mon;
+        private DevExpress.XtraGrid.Columns.GridColumn m_col_diem_xet_tuyen;
     }
 }

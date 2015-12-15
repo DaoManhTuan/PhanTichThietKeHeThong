@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace TOSApp.NghiepVu
 {
-    public partial class f101_ho_so_thi_sinh : Form
+    public partial class f101_tiep_nhan_ho_so : Form
     {
-        public f101_ho_so_thi_sinh()
+        public f101_tiep_nhan_ho_so()
         {
             InitializeComponent();
         }
@@ -25,6 +25,15 @@ namespace TOSApp.NghiepVu
             load_data_2_nguyen_vong(m_cbo_nhom_nganh_2);
             load_data_2_nguyen_vong(m_cbo_nhom_nganh_3);
             load_data_2_nguyen_vong(m_cbo_nhom_nganh_4);
+        }
+
+        private void load_data_2_grid(decimal v_id_thi_sinh)
+        {
+            US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
+            DataSet v_ds = new DataSet();
+            v_ds.Tables.Add(new DataTable());
+            v_us.FillDatasetWithQuery(v_ds, "SELECT *FROM V_THI_SINH_NGUYEN_VONG WHERE ID_THI_SINH = " + m_id.ToString() + "ORDER BY NGUYEN_VONG");
+            m_grc_diem_xet_tuyen.DataSource = v_ds.Tables[0];
         }
 
         private void load_data_2_nguyen_vong(ComboBox v_cbo)
@@ -47,6 +56,16 @@ namespace TOSApp.NghiepVu
                 {
                     load_data_to_thong_tin_thi_sinh(CIPConvert.ToDecimal(v_ds.Tables[0].Rows[0]["ID"].ToString()));
                     m_id = CIPConvert.ToDecimal(v_ds.Tables[0].Rows[0]["ID"].ToString());
+                    load_data_2_grid(m_id);
+                    if(m_grv_diem_xet_tuyen.RowCount != 0)
+                    {
+                        m_cmd_tiep_nhan.Enabled = false;
+                    }
+                    else
+                    {
+                        m_cmd_tiep_nhan.Enabled = true;
+                    }
+
                 }
             }
             catch
@@ -133,10 +152,10 @@ namespace TOSApp.NghiepVu
             }
             if (p == 2)
             {
-               v_us.dcID_NGANH_TO_HOP_MON = CIPConvert.ToDecimal(m_cbo_to_hop_mon_2.SelectedValue.ToString());
-               US_DS_NGANH_TO_HOP_MON v_us_nganh_to_hop_mon = new US_DS_NGANH_TO_HOP_MON(v_us.dcID_NGANH_TO_HOP_MON);
-               v_us.dcDIEM_XT = User.GetDiemXetTuyen(m_id, v_us_nganh_to_hop_mon.dcID_TO_HOP_MON);
-               v_us.dcNGUYEN_VONG = 2;
+                v_us.dcID_NGANH_TO_HOP_MON = CIPConvert.ToDecimal(m_cbo_to_hop_mon_2.SelectedValue.ToString());
+                US_DS_NGANH_TO_HOP_MON v_us_nganh_to_hop_mon = new US_DS_NGANH_TO_HOP_MON(v_us.dcID_NGANH_TO_HOP_MON);
+                v_us.dcDIEM_XT = User.GetDiemXetTuyen(m_id, v_us_nganh_to_hop_mon.dcID_TO_HOP_MON);
+                v_us.dcNGUYEN_VONG = 2;
             }
             if (p == 3)
             {
@@ -172,7 +191,7 @@ namespace TOSApp.NghiepVu
             v_lis_id_nganh.Add(CIPConvert.ToDecimal(m_cbo_nhom_nganh_4.SelectedValue.ToString()));
             for (int i = 0; i < v_lis_id_nganh.Count; i++)
             {
-                for (int j = i+1; j < v_lis_id_nganh.Count; j++)
+                for (int j = i + 1; j < v_lis_id_nganh.Count; j++)
                 {
                     if (v_lis_id_nganh[i] == v_lis_id_nganh[j])
                     {
@@ -181,7 +200,7 @@ namespace TOSApp.NghiepVu
                     }
                 }
             }
-            
+
             return true;
         }
 
@@ -212,7 +231,7 @@ namespace TOSApp.NghiepVu
 
         private void m_check_nv2_CheckedChanged(object sender, EventArgs e)
         {
-            if(m_check_nv2.Checked)
+            if (m_check_nv2.Checked)
             {
                 m_cbo_nhom_nganh_2.Enabled = true;
                 m_cbo_to_hop_mon_2.Enabled = true;
@@ -221,6 +240,8 @@ namespace TOSApp.NghiepVu
             {
                 m_cbo_nhom_nganh_2.Enabled = false;
                 m_cbo_to_hop_mon_2.Enabled = false;
+                m_check_nv3.Checked = false;
+                m_check_nv4.Checked = false;
             }
         }
 
@@ -235,6 +256,7 @@ namespace TOSApp.NghiepVu
             {
                 m_cbo_nhom_nganh_3.Enabled = false;
                 m_cbo_to_hop_mon_3.Enabled = false;
+                m_check_nv4.Checked = false;
             }
         }
 

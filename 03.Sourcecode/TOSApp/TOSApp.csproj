@@ -263,11 +263,11 @@
     <Compile Include="f100_main.Designer.cs">
       <DependentUpon>f100_main.cs</DependentUpon>
     </Compile>
-    <Compile Include="NghiepVu\f101_ho_so_thi_sinh.cs">
+    <Compile Include="NghiepVu\f101_tiep_nhan_ho_so.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NghiepVu\f101_ho_so_thi_sinh.Designer.cs">
-      <DependentUpon>f101_ho_so_thi_sinh.cs</DependentUpon>
+    <Compile Include="NghiepVu\f101_tiep_nhan_ho_so.Designer.cs">
+      <DependentUpon>f101_tiep_nhan_ho_so.cs</DependentUpon>
     </Compile>
     <Compile Include="NghiepVu\f102_ds_trung_tuyen.cs">
       <SubType>Form</SubType>
@@ -295,8 +295,8 @@
       <DependentUpon>f100_main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="licenses.licx" />
-    <EmbeddedResource Include="NghiepVu\f101_ho_so_thi_sinh.resx">
-      <DependentUpon>f101_ho_so_thi_sinh.cs</DependentUpon>
+    <EmbeddedResource Include="NghiepVu\f101_tiep_nhan_ho_so.resx">
+      <DependentUpon>f101_tiep_nhan_ho_so.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NghiepVu\f102_ds_trung_tuyen.resx">
       <DependentUpon>f102_ds_trung_tuyen.cs</DependentUpon>
