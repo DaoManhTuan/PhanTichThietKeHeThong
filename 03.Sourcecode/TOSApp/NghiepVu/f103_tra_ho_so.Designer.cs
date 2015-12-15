@@ -422,9 +422,10 @@
             this.m_pan_ma_thi_sinh.Controls.Add(this.m_cmd_kiem_tra);
             this.m_pan_ma_thi_sinh.Controls.Add(this.m_txt_ma_thi_sinh);
             this.m_pan_ma_thi_sinh.Controls.Add(this.m_lab_ma_thi_sinh);
+            this.m_pan_ma_thi_sinh.Dock = System.Windows.Forms.DockStyle.Fill;
             this.m_pan_ma_thi_sinh.Location = new System.Drawing.Point(3, 3);
             this.m_pan_ma_thi_sinh.Name = "m_pan_ma_thi_sinh";
-            this.m_pan_ma_thi_sinh.Size = new System.Drawing.Size(1102, 54);
+            this.m_pan_ma_thi_sinh.Size = new System.Drawing.Size(1143, 54);
             this.m_pan_ma_thi_sinh.TabIndex = 0;
             // 
             // m_laypanel_main
