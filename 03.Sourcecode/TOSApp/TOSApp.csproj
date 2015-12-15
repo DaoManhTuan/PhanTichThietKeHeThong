@@ -275,6 +275,12 @@
     <Compile Include="NghiepVu\f102_ds_trung_tuyen.Designer.cs">
       <DependentUpon>f102_ds_trung_tuyen.cs</DependentUpon>
     </Compile>
+    <Compile Include="NghiepVu\f103_tra_ho_so.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NghiepVu\f103_tra_ho_so.Designer.cs">
+      <DependentUpon>f103_tra_ho_so.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Web References\SCMServices\DS_V_DM_DIEM_HOC_VIEN.cs">
@@ -300,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NghiepVu\f102_ds_trung_tuyen.resx">
       <DependentUpon>f102_ds_trung_tuyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NghiepVu\f103_tra_ho_so.resx">
+      <DependentUpon>f103_tra_ho_so.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

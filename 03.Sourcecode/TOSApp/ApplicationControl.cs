@@ -33,7 +33,7 @@ namespace TOSApp
             // The following line provides localization for data formats. 
             System.Threading.Thread.CurrentThread.CurrentCulture =
                 new System.Globalization.CultureInfo("vi-VN");
-            f101_tiep_nhan_ho_so v_f = new f101_tiep_nhan_ho_so();
+            f100_main v_f = new f100_main();
             v_f.ShowDialog();
         }
     }

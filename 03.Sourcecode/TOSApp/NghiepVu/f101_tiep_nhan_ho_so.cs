@@ -17,14 +17,22 @@ namespace TOSApp.NghiepVu
         {
             InitializeComponent();
         }
+
         decimal m_id = 0;
 
         private void f101_ho_so_thi_sinh_Load(object sender, EventArgs e)
         {
-            load_data_2_nguyen_vong(m_cbo_nhom_nganh_1);
-            load_data_2_nguyen_vong(m_cbo_nhom_nganh_2);
-            load_data_2_nguyen_vong(m_cbo_nhom_nganh_3);
-            load_data_2_nguyen_vong(m_cbo_nhom_nganh_4);
+            try
+            {
+                load_data_2_nguyen_vong(m_cbo_nhom_nganh_1);
+                load_data_2_nguyen_vong(m_cbo_nhom_nganh_2);
+                load_data_2_nguyen_vong(m_cbo_nhom_nganh_3);
+                load_data_2_nguyen_vong(m_cbo_nhom_nganh_4);
+            }
+            catch
+            {
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
+            }
         }
 
         private void load_data_2_grid(decimal v_id_thi_sinh)
@@ -40,6 +48,7 @@ namespace TOSApp.NghiepVu
         {
             WinFormControls.load_data_to_combobox_with_query(v_cbo, "ID", "MA_NGANH", WinFormControls.eTAT_CA.NO, "SELECT ID, MA_NGANH FROM DM_NGANH_TUYEN_SINH");
         }
+
         private void m_cmd_kiem_tra_Click(object sender, EventArgs e)
         {
             try
@@ -123,6 +132,9 @@ namespace TOSApp.NghiepVu
                         Insert_nguyen_vong(4);
                     }
                     Insert_tai_khoan();
+                    MessageBox.Show("Thành công!");
+                    load_data_2_grid(m_id);
+                    m_cmd_tiep_nhan.Enabled = false;
                 }
             }
             catch
@@ -204,11 +216,6 @@ namespace TOSApp.NghiepVu
             return true;
         }
 
-        private void m_cmd_tra_ho_so_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void m_cbo_nhom_nganh_1_SelectedIndexChanged(object sender, EventArgs e)
         {
             WinFormControls.load_data_to_combobox_with_query(m_cbo_to_hop_mon_1, "ID", "TO_HOP_MON", WinFormControls.eTAT_CA.NO, "SELECT ID,TO_HOP_MON FROM V_DS_NGANH_TO_HOP_MON WHERE ID_MA_NGANH = " + m_cbo_nhom_nganh_1.SelectedValue.ToString());
@@ -273,6 +280,5 @@ namespace TOSApp.NghiepVu
                 m_cbo_to_hop_mon_4.Enabled = false;
             }
         }
-
     }
 }

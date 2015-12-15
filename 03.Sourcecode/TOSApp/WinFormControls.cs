@@ -202,7 +202,12 @@ namespace TOSApp
             v_cstore.addNVarcharInputParam("@v_str_ma_thi_sinh",v_ma_thi_sinh);
             v_cstore.fillDataSetByCommand(this, v_ds);
         }
-
+        public void FillDataSetMaThiSinhNguyenVong(DataSet v_ds, string v_ma_thi_sinh)
+        {
+            CStoredProc v_cstore = new CStoredProc("pr_check_ma_thi_sinh_dang_ky");
+            v_cstore.addNVarcharInputParam("@v_str_ma_thi_sinh", v_ma_thi_sinh);
+            v_cstore.fillDataSetByCommand(this, v_ds);
+        }
         public void FillDatasetCBO(DataSet op_ds, string ip_str_table_name, string ip_str_value_field, string ip_str_display_field, string ip_str_condition)
         {
             CStoredProc v_cstore = new CStoredProc("get_data_for_cbo");
