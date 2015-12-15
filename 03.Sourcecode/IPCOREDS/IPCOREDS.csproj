@@ -115,10 +115,40 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CDBNames.cs" />
+    <Compile Include="DS_DM_DOI_TUONG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_DOI_TUONG.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DM_KHU_VUC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_KHU_VUC.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_DS_HO_SO_THI_SINH.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_DS_HO_SO_THI_SINH.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DS_NGANH_TO_HOP_MON.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DS_NGANH_TO_HOP_MON.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DS_NGUYEN_VONG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DS_NGUYEN_VONG.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DS_TO_HOP_MON.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DS_TO_HOP_MON.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_USER_PASSWORD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_USER_PASSWORD.xsd</DependentUpon>
     </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -128,6 +158,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DS_DM_DOI_TUONG.xsc">
+      <DependentUpon>DS_DM_DOI_TUONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_DOI_TUONG.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_DOI_TUONG.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_DOI_TUONG.xss">
+      <DependentUpon>DS_DM_DOI_TUONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_KHU_VUC.xsc">
+      <DependentUpon>DS_DM_KHU_VUC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_KHU_VUC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_KHU_VUC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_KHU_VUC.xss">
+      <DependentUpon>DS_DM_KHU_VUC.xsd</DependentUpon>
+    </None>
     <None Include="DS_DS_HO_SO_THI_SINH.xsc">
       <DependentUpon>DS_DS_HO_SO_THI_SINH.xsd</DependentUpon>
     </None>
@@ -138,6 +190,50 @@
     </None>
     <None Include="DS_DS_HO_SO_THI_SINH.xss">
       <DependentUpon>DS_DS_HO_SO_THI_SINH.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DS_NGANH_TO_HOP_MON.xsc">
+      <DependentUpon>DS_DS_NGANH_TO_HOP_MON.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DS_NGANH_TO_HOP_MON.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DS_NGANH_TO_HOP_MON.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DS_NGANH_TO_HOP_MON.xss">
+      <DependentUpon>DS_DS_NGANH_TO_HOP_MON.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DS_NGUYEN_VONG.xsc">
+      <DependentUpon>DS_DS_NGUYEN_VONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DS_NGUYEN_VONG.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DS_NGUYEN_VONG.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DS_NGUYEN_VONG.xss">
+      <DependentUpon>DS_DS_NGUYEN_VONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DS_TO_HOP_MON.xsc">
+      <DependentUpon>DS_DS_TO_HOP_MON.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DS_TO_HOP_MON.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DS_TO_HOP_MON.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DS_TO_HOP_MON.xss">
+      <DependentUpon>DS_DS_TO_HOP_MON.xsd</DependentUpon>
+    </None>
+    <None Include="DS_USER_PASSWORD.xsc">
+      <DependentUpon>DS_USER_PASSWORD.xsd</DependentUpon>
+    </None>
+    <None Include="DS_USER_PASSWORD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_USER_PASSWORD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_USER_PASSWORD.xss">
+      <DependentUpon>DS_USER_PASSWORD.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

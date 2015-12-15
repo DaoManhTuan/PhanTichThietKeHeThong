@@ -60,16 +60,16 @@ namespace TOSApp
             }
         }
 
-        
 
-        public static void load_data_to_combobox(string ip_str_table_name, string ip_str_value_field, string ip_str_display_field, string ip_str_condition, eTAT_CA ip_e_tat_ca,ComboBox ip_cbo)
+
+        public static void load_data_to_combobox(string ip_str_table_name, string ip_str_value_field, string ip_str_display_field, string ip_str_condition, eTAT_CA ip_e_tat_ca, ComboBox ip_cbo)
         {
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             DataTable v_dt = new DataTable();
             v_ds.Tables.Add(v_dt);
             v_us.FillDatasetCBO(v_ds, ip_str_table_name, ip_str_value_field, ip_str_display_field, ip_str_condition);
-            
+
             ip_cbo.DisplayMember = ip_str_display_field;
             ip_cbo.ValueMember = ip_str_value_field;
             ip_cbo.DataSource = v_ds.Tables[0];
@@ -96,7 +96,7 @@ namespace TOSApp
             DataTable v_dt = new DataTable();
             v_ds.Tables.Add(v_dt);
             v_us.FillDatasetWithQuery(v_ds, ip_query);
-            
+
             ip_cbo.DisplayMember = ip_str_display_field;
             ip_cbo.ValueMember = ip_str_value_field;
             ip_cbo.DataSource = v_ds.Tables[0];
@@ -186,7 +186,8 @@ namespace TOSApp
 
 
 
-    public class US_DUNG_CHUNG : US_Object {
+    public class US_DUNG_CHUNG : US_Object
+    {
         public void FillDatasetWithProc(DataSet op_ds, string ip_str_table_name, string ip_str_column_name)
         {
             CStoredProc v_cstore = new CStoredProc("get_data_to_dataset_with_table_name_and_column_name");
@@ -195,7 +196,12 @@ namespace TOSApp
             v_cstore.fillDataSetByCommand(this, op_ds);
         }
 
-       
+        public void FillDataSetMaThiSinh(DataSet v_ds, string v_ma_thi_sinh)
+        {
+            CStoredProc v_cstore = new CStoredProc("pr_check_ma_thi_sinh");
+            v_cstore.addNVarcharInputParam("@v_str_ma_thi_sinh",v_ma_thi_sinh);
+            v_cstore.fillDataSetByCommand(this, v_ds);
+        }
 
         public void FillDatasetCBO(DataSet op_ds, string ip_str_table_name, string ip_str_value_field, string ip_str_display_field, string ip_str_condition)
         {
@@ -220,8 +226,8 @@ namespace TOSApp
             v_cstore.addNVarcharInputParam("@SQL_QUERY", ip_query);
             v_cstore.fillDataSetByCommand(this, op_ds);
         }
-
-        public void FillDatasetLogin(DataSet v_ds, string user,string pass, decimal id_chi_nhanh)
+        
+        public void FillDatasetLogin(DataSet v_ds, string user, string pass, decimal id_chi_nhanh)
         {
             CStoredProc v_cstore = new CStoredProc("check_login");
             v_cstore.addNVarcharInputParam("@user", user);
@@ -229,12 +235,7 @@ namespace TOSApp
             v_cstore.addDecimalInputParam("@id_chi_nhanh", id_chi_nhanh);
             v_cstore.fillDataSetByCommand(this, v_ds);
         }
-        public void CheckEmailDanhMucKhachHang(DataSet v_ds,string email)
-        {
-            CStoredProc v_cstore = new CStoredProc("check_email_dm_khach_hang");
-            v_cstore.addNVarcharInputParam("@email", email);
-            v_cstore.fillDataSetByCommand(this, v_ds);
-        }
+
         internal void FillDatasetSQLInjection(DataSet v_ds, string p)
         {
             CStoredProc v_cstore = new CStoredProc("sqlInjection");
@@ -248,7 +249,7 @@ namespace TOSApp
             CStoredProc v_cstore = new CStoredProc("get_start_date");
             v_cstore.addDecimalInputParam("@id_khoang_thoi_gian", id_time);
             v_cstore.addDatetimeInputParam("@deadline", deadline);
-            v_cstore.fillDataSetByCommand(this, v_ds);     
+            v_cstore.fillDataSetByCommand(this, v_ds);
         }
 
         internal void FillAppointmentByDichVu(DataSet v_ds, decimal id_dich_vu)
@@ -257,6 +258,7 @@ namespace TOSApp
             v_cstore.addDecimalInputParam("@id_dich_vu", id_dich_vu);
             v_cstore.fillDataSetByCommand(this, v_ds);
         }
+
         internal void FillResourcesByDichVu(DataSet v_ds, decimal id_dich_vu)
         {
             CStoredProc v_cstore = new CStoredProc("get_nguoi_xu_ly_by_dv");
@@ -292,8 +294,8 @@ namespace TOSApp
         {
             string v_output = "";
             CStoredProc v_cstore = new CStoredProc("pr_get_thoi_diem_can_hoan_thanh");
-             v_cstore.addNVarcharInputParam("@string_time", time);
-             SqlParameter v_result = v_cstore.addDatetimeOutputParam("@thoi_diem_can_hoan_thanh", v_output);
+            v_cstore.addNVarcharInputParam("@string_time", time);
+            SqlParameter v_result = v_cstore.addDatetimeOutputParam("@thoi_diem_can_hoan_thanh", v_output);
             v_cstore.ExecuteCommand(this);
             return (DateTime)v_result.Value;
         }
@@ -306,7 +308,7 @@ namespace TOSApp
             v_cstore.ExecuteCommand(this);
             return (string)v_result.Value;
         }
-        public decimal get_id_pm_dich_vu (decimal v_id_loai_dich_vu,decimal v_id_pm)
+        public decimal get_id_pm_dich_vu(decimal v_id_loai_dich_vu, decimal v_id_pm)
         {
             decimal count = 0;
             CStoredProc v_cstore = new CStoredProc("get_id_pm_dich_vu");
@@ -327,7 +329,7 @@ namespace TOSApp
             return (decimal)v_result.Value;
         }
 
-       
+
     }
 
     public class iParameter
@@ -335,7 +337,8 @@ namespace TOSApp
         public string ParameterName { get; set; }
         public string ParameterValue { get; set; }
 
-        public iParameter(string ip_name, string ip_value) {
+        public iParameter(string ip_name, string ip_value)
+        {
             ParameterName = ip_name;
             ParameterValue = ip_value;
         }

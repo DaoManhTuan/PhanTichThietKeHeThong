@@ -9,6 +9,7 @@ using IP.Core.IPUserService;
 
 using System.Threading;
 using TOSApp.App_Code;
+using TOSApp.NghiepVu;
 
 
 namespace TOSApp
@@ -29,11 +30,10 @@ namespace TOSApp
         {
             System.Threading.Thread.CurrentThread.CurrentUICulture =
                     new System.Globalization.CultureInfo("vi-VN");
-
             // The following line provides localization for data formats. 
             System.Threading.Thread.CurrentThread.CurrentCulture =
                 new System.Globalization.CultureInfo("vi-VN");
-            TOSApp.HT.f000_main v_f = new HT.f000_main();
+            f101_ho_so_thi_sinh v_f = new f101_ho_so_thi_sinh();
             v_f.ShowDialog();
         }
     }

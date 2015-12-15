@@ -276,6 +276,7 @@
       <DependentUpon>f102_ds_trung_tuyen.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="Web References\SCMServices\DS_V_DM_DIEM_HOC_VIEN.cs">
       <DependentUpon>DS_V_DM_DIEM_HOC_VIEN.xsd</DependentUpon>
     </Compile>

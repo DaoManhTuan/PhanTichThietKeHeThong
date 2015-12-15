@@ -127,7 +127,13 @@
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="US_DM_DOI_TUONG.cs" />
+    <Compile Include="US_DM_KHU_VUC.cs" />
     <Compile Include="US_DS_HO_SO_THI_SINH.cs" />
+    <Compile Include="US_DS_NGANH_TO_HOP_MON.cs" />
+    <Compile Include="US_DS_NGUYEN_VONG.cs" />
+    <Compile Include="US_DS_TO_HOP_MON.cs" />
+    <Compile Include="US_USER_PASSWORD.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
