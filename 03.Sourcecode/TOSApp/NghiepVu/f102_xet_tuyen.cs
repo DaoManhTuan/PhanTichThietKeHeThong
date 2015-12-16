@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TOSApp.NghiepVu
 {
-    public partial class f102_ds_trung_tuyen : Form
+    public partial class f102_xet_tuyen : Form
     {
-        public f102_ds_trung_tuyen()
+        public f102_xet_tuyen()
         {
             InitializeComponent();
         }
@@ -21,8 +21,10 @@ namespace TOSApp.NghiepVu
         {
             try
             {
-                US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
-                v_us.XetTuyen();
+                User.XetTuyen();
+                MessageBox.Show("Thành công!");
+                load_data_2_grid();
+                load_data_2_chitieu();
             }
             catch (Exception)
             {

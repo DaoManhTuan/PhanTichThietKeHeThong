@@ -37,6 +37,7 @@ namespace TOSApp
             {
                 US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
                 DataSet v_ds = new DataSet();
+                v_ds.Tables.Add(new DataTable());
                 v_us.FillDatasetLogin(v_ds, m_txt_user.Text, m_txt_password.Text);
                 if(v_ds.Tables[0].Rows.Count != 1)
                 {
@@ -49,6 +50,17 @@ namespace TOSApp
                     User.ID_NHOM_NGUOI_SU_DUNG = v_us_nguoi_sd.dcID_NHOM_NGUOI_SU_DUNG;
                     User.TAI_KHOAN = v_us_nguoi_sd.strTAI_KHOAN;
                     User.MAT_KHAU = v_us_nguoi_sd.strMAT_KHAU;
+                    this.Hide();
+                    f100_main v_f = new f100_main();
+                    User.trang_thai_dang_nhap = true;
+                    v_f.Text = "HỆ THỐNG TUYỂN SINH ĐẠI HỌC BÁCH KHOA HÀ NỘI:          " + User.TAI_KHOAN;
+                    v_f.ShowDialog();
+                    if (User.trang_thai_dang_nhap == false)
+                    {
+                        this.Show();
+                        m_txt_password.Text = "";
+                        m_lab_eror.Text = "";
+                    }
                 }
             }
             catch

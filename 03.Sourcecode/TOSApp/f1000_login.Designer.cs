@@ -41,7 +41,7 @@
             // 
             // m_txt_password
             // 
-            this.m_txt_password.Location = new System.Drawing.Point(345, 121);
+            this.m_txt_password.Location = new System.Drawing.Point(324, 116);
             this.m_txt_password.Name = "m_txt_password";
             this.m_txt_password.PasswordChar = '*';
             this.m_txt_password.Size = new System.Drawing.Size(176, 20);
@@ -53,24 +53,22 @@
             this.m_lab_eror.ForeColor = System.Drawing.Color.Red;
             this.m_lab_eror.Location = new System.Drawing.Point(238, 172);
             this.m_lab_eror.Name = "m_lab_eror";
-            this.m_lab_eror.Size = new System.Drawing.Size(35, 13);
+            this.m_lab_eror.Size = new System.Drawing.Size(0, 13);
             this.m_lab_eror.TabIndex = 23;
-            this.m_lab_eror.Text = "dfsfsd";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox2.Image = global::TOSApp.Properties.Resources.images;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(187, 244);
+            this.pictureBox2.Size = new System.Drawing.Size(187, 224);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 22;
             this.pictureBox2.TabStop = false;
             // 
             // m_cmd_thoat
             // 
-            this.m_cmd_thoat.Location = new System.Drawing.Point(446, 209);
+            this.m_cmd_thoat.Location = new System.Drawing.Point(425, 209);
             this.m_cmd_thoat.Name = "m_cmd_thoat";
             this.m_cmd_thoat.Size = new System.Drawing.Size(75, 23);
             this.m_cmd_thoat.TabIndex = 19;
@@ -80,7 +78,7 @@
             // m_cmd_dang_nhap
             // 
             this.m_cmd_dang_nhap.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.m_cmd_dang_nhap.Location = new System.Drawing.Point(348, 209);
+            this.m_cmd_dang_nhap.Location = new System.Drawing.Point(327, 209);
             this.m_cmd_dang_nhap.Name = "m_cmd_dang_nhap";
             this.m_cmd_dang_nhap.Size = new System.Drawing.Size(75, 23);
             this.m_cmd_dang_nhap.TabIndex = 18;
@@ -89,7 +87,7 @@
             // 
             // m_txt_user
             // 
-            this.m_txt_user.Location = new System.Drawing.Point(345, 63);
+            this.m_txt_user.Location = new System.Drawing.Point(324, 58);
             this.m_txt_user.Name = "m_txt_user";
             this.m_txt_user.Size = new System.Drawing.Size(176, 20);
             this.m_txt_user.TabIndex = 16;
@@ -97,7 +95,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(238, 121);
+            this.label2.Location = new System.Drawing.Point(217, 116);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 13);
             this.label2.TabIndex = 21;
@@ -106,7 +104,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(238, 63);
+            this.label1.Location = new System.Drawing.Point(217, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 13);
             this.label1.TabIndex = 20;
@@ -114,9 +112,10 @@
             // 
             // f1000_login
             // 
+            this.AcceptButton = this.m_cmd_dang_nhap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(554, 244);
+            this.ClientSize = new System.Drawing.Size(527, 244);
             this.Controls.Add(this.m_txt_password);
             this.Controls.Add(this.m_lab_eror);
             this.Controls.Add(this.pictureBox2);
@@ -125,6 +124,8 @@
             this.Controls.Add(this.m_txt_user);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "f1000_login";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

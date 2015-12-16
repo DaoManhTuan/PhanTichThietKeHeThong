@@ -236,7 +236,11 @@ namespace TOSApp
             v_cstore.addNVarcharInputParam("@SQL_QUERY", ip_query);
             v_cstore.fillDataSetByCommand(this, op_ds);
         }
-        
+        public void FillDatasetDSTruot(DataSet op_ds)
+        {
+            CStoredProc v_cstore = new CStoredProc("pr_danh_sach_truot");
+            v_cstore.fillDataSetByCommand(this, op_ds);
+        }
         public void FillDatasetLogin(DataSet v_ds, string user, string pass)
         {
             CStoredProc v_cstore = new CStoredProc("check_login");
@@ -244,7 +248,23 @@ namespace TOSApp
             v_cstore.addNVarcharInputParam("@pass", pass);
             v_cstore.fillDataSetByCommand(this, v_ds);
         }
-        
+        public void FillTableKQXT(decimal v_id_thi_sinh)
+        {
+            CStoredProc v_cstore = new CStoredProc("pr_xet_tuyen_thi_sinh");
+            v_cstore.addDecimalInputParam("@v_dc_id_thi_sinh", v_id_thi_sinh);
+            v_cstore.ExecuteCommand(this);
+        }
+        public void UpdateTrangThaiTrungTuyen()
+        {
+            CStoredProc v_cstore = new CStoredProc("pr_update_trang_thai_trung_tuyen");
+            v_cstore.ExecuteCommand(this);
+        }
+        public void FillDatasetTaiKhoan(DataSet v_ds, string user)
+        {
+            CStoredProc v_cstore = new CStoredProc("check_tai_khoan");
+            v_cstore.addNVarcharInputParam("@user", user);
+            v_cstore.fillDataSetByCommand(this, v_ds);
+        }
         internal void FillDatasetSQLInjection(DataSet v_ds, string p)
         {
             CStoredProc v_cstore = new CStoredProc("sqlInjection");

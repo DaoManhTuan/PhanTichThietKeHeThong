@@ -1,6 +1,6 @@
 ﻿namespace TOSApp.NghiepVu
 {
-    partial class f102_ds_trung_tuyen
+    partial class f102_xet_tuyen
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f102_ds_trung_tuyen));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f102_xet_tuyen));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.m_lab_tong_so = new System.Windows.Forms.Label();
+            this.m_lab_chi_tieu = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.m_cbo_nganh = new System.Windows.Forms.ComboBox();
             this.m_cmd_xuat_excel = new DevExpress.XtraEditors.SimpleButton();
@@ -44,10 +48,6 @@
             this.m_col_ma_nganh = new DevExpress.XtraGrid.Columns.GridColumn();
             this.m_col_nguyen_vong = new DevExpress.XtraGrid.Columns.GridColumn();
             this.m_col_diem_xet_tuyen = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.m_lab_chi_tieu = new System.Windows.Forms.Label();
-            this.m_lab_tong_so = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.m_grc_ds_trung_tuyen)).BeginInit();
@@ -84,6 +84,46 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1005, 61);
             this.panel1.TabIndex = 1;
+            // 
+            // m_lab_tong_so
+            // 
+            this.m_lab_tong_so.AutoSize = true;
+            this.m_lab_tong_so.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_lab_tong_so.Location = new System.Drawing.Point(617, 24);
+            this.m_lab_tong_so.Name = "m_lab_tong_so";
+            this.m_lab_tong_so.Size = new System.Drawing.Size(51, 16);
+            this.m_lab_tong_so.TabIndex = 7;
+            this.m_lab_tong_so.Text = "Chỉ tiêu";
+            // 
+            // m_lab_chi_tieu
+            // 
+            this.m_lab_chi_tieu.AutoSize = true;
+            this.m_lab_chi_tieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m_lab_chi_tieu.Location = new System.Drawing.Point(427, 24);
+            this.m_lab_chi_tieu.Name = "m_lab_chi_tieu";
+            this.m_lab_chi_tieu.Size = new System.Drawing.Size(51, 16);
+            this.m_lab_chi_tieu.TabIndex = 6;
+            this.m_lab_chi_tieu.Text = "Chỉ tiêu";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(509, 24);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(102, 16);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Tổng thí sinh đỗ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(370, 24);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 16);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Chỉ tiêu";
             // 
             // label1
             // 
@@ -214,46 +254,6 @@
             this.m_col_diem_xet_tuyen.Visible = true;
             this.m_col_diem_xet_tuyen.VisibleIndex = 6;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(370, 24);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 16);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Chỉ tiêu";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(509, 24);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Tổng thí sinh đỗ";
-            // 
-            // m_lab_chi_tieu
-            // 
-            this.m_lab_chi_tieu.AutoSize = true;
-            this.m_lab_chi_tieu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m_lab_chi_tieu.Location = new System.Drawing.Point(427, 24);
-            this.m_lab_chi_tieu.Name = "m_lab_chi_tieu";
-            this.m_lab_chi_tieu.Size = new System.Drawing.Size(51, 16);
-            this.m_lab_chi_tieu.TabIndex = 6;
-            this.m_lab_chi_tieu.Text = "Chỉ tiêu";
-            // 
-            // m_lab_tong_so
-            // 
-            this.m_lab_tong_so.AutoSize = true;
-            this.m_lab_tong_so.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m_lab_tong_so.Location = new System.Drawing.Point(617, 24);
-            this.m_lab_tong_so.Name = "m_lab_tong_so";
-            this.m_lab_tong_so.Size = new System.Drawing.Size(51, 16);
-            this.m_lab_tong_so.TabIndex = 7;
-            this.m_lab_tong_so.Text = "Chỉ tiêu";
-            // 
             // f102_ds_trung_tuyen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -261,7 +261,7 @@
             this.ClientSize = new System.Drawing.Size(1011, 450);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "f102_ds_trung_tuyen";
-            this.Text = "Danh sách sinh viên trúng tuyển";
+            this.Text = "Xét tuyển";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.f102_ds_trung_tuyen_Load);
             this.tableLayoutPanel1.ResumeLayout(false);

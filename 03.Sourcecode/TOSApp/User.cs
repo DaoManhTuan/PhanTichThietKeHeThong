@@ -24,27 +24,37 @@ namespace TOSApp
         public static string TAI_KHOAN;
         public static string MAT_KHAU;
         public static decimal ID_NHOM_NGUOI_SU_DUNG;
+        public static bool trang_thai_dang_nhap = false;
         public static decimal GetDiemXetTuyen(decimal id_thi_sinh, decimal id_to_hop_mon)
         {
             US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
             DataSet v_ds = new DataSet();
             v_ds.Tables.Add(new DataTable());
             v_us.FillDatasetWithQuery(v_ds, "SELECT dbo.get_diem_tb_nhom_mon(" + id_thi_sinh + "," + id_to_hop_mon + ")");
-            return CIPConvert.ToDecimal( v_ds.Tables[0].Rows[0][0].ToString());
+            return CIPConvert.ToDecimal(v_ds.Tables[0].Rows[0][0].ToString());
         }
         public static void XetTuyen()
         {
-            string conString = ConfigurationManager.ConnectionStrings["TOSApp.Properties.Settings.HTTS_DHBKConnectionString"].ConnectionString;
-            SqlConnection con = new SqlConnection(conString);
-            SqlCommand com = new SqlCommand();
-            com.CommandTimeout = 21600;
-            com = con.CreateCommand();
-            com.CommandType = CommandType.Text;
-            com.CommandText = "get_ds_thi_sinh_trung_tuyen";
-            con.Open();
-            SqlDataReader reader;
-            reader =com.ExecuteReader();
-            con.Close();
+            while (Dieu_kien_Dung() > 0)
+            {
+                US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
+                DataSet v_ds = new DataSet();
+                v_ds.Tables.Add(new DataTable());
+                v_us.FillDatasetWithQuery(v_ds, "SELECT ID_THI_SINH FROM V_DS_NGANH_NGUYEN_VONG dnnv WHERE dnnv.TRANG_THAI_TRUNG_TUYEN = 'N' AND dnnv.NGUYEN_VONG =1");
+                for (int i = 0; i < v_ds.Tables[0].Rows.Count; i++)
+                {
+                    v_us.FillTableKQXT(CIPConvert.ToDecimal(v_ds.Tables[0].Rows[i]["ID_THI_SINH"].ToString()));
+                }
+                v_us.UpdateTrangThaiTrungTuyen();
+            }
+        }
+        public static decimal Dieu_kien_Dung()
+        {
+            US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
+            DataSet v_ds = new DataSet();
+            v_ds.Tables.Add(new DataTable());
+            v_us.FillDatasetWithQuery(v_ds, "SELECT dbo.f_get_dieu_kien_dung()");
+            return CIPConvert.ToDecimal(v_ds.Tables[0].Rows[0][0].ToString());
         }
         public static void xuat_excel(DevExpress.XtraGrid.Views.Grid.GridView v_grv, string name)
         {
