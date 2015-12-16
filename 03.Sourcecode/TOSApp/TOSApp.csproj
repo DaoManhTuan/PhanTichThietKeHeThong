@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TOSApp</RootNamespace>
     <AssemblyName>DVMC</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>true</IsWebBootstrapper>
     <TargetFrameworkProfile />
@@ -45,6 +45,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -54,6 +55,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>TOSApp.ApplicationControl</StartupObject>
@@ -257,6 +259,12 @@
   <ItemGroup>
     <Compile Include="ApplicationControl.cs" />
     <Compile Include="App_Code\CEncryptKeyString.cs" />
+    <Compile Include="f1000_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f1000_login.Designer.cs">
+      <DependentUpon>f1000_login.cs</DependentUpon>
+    </Compile>
     <Compile Include="f100_main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -281,22 +289,18 @@
     <Compile Include="NghiepVu\f103_tra_ho_so.Designer.cs">
       <DependentUpon>f103_tra_ho_so.cs</DependentUpon>
     </Compile>
+    <Compile Include="NghiepVu\f104_thay_doi_nguyen_vong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NghiepVu\f104_thay_doi_nguyen_vong.Designer.cs">
+      <DependentUpon>f104_thay_doi_nguyen_vong.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
-    <Compile Include="Web References\SCMServices\DS_V_DM_DIEM_HOC_VIEN.cs">
-      <DependentUpon>DS_V_DM_DIEM_HOC_VIEN.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="Web References\SCMServices\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
-    <Compile Include="Web References\WSCallCenter\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
     <Compile Include="WinFormControls.cs" />
+    <EmbeddedResource Include="f1000_login.resx">
+      <DependentUpon>f1000_login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="f100_main.resx">
       <DependentUpon>f100_main.cs</DependentUpon>
     </EmbeddedResource>
@@ -309,6 +313,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NghiepVu\f103_tra_ho_so.resx">
       <DependentUpon>f103_tra_ho_so.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NghiepVu\f104_thay_doi_nguyen_vong.resx">
+      <DependentUpon>f104_thay_doi_nguyen_vong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -346,32 +353,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="TOSApp_TemporaryKey.pfx" />
-    <None Include="Web References\SCMServices\DS_V_DM_DIEM_HOC_VIEN.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </None>
-    <None Include="Web References\SCMServices\DS_V_DM_DIEM_HOC_VIEN.xsc">
-      <DependentUpon>DS_V_DM_DIEM_HOC_VIEN.xsd</DependentUpon>
-    </None>
-    <None Include="Web References\SCMServices\DS_V_DM_DIEM_HOC_VIEN.xsd" />
-    <None Include="Web References\SCMServices\DS_V_DM_DIEM_HOC_VIEN.xss">
-      <DependentUpon>DS_V_DM_DIEM_HOC_VIEN.xsd</DependentUpon>
-    </None>
-    <None Include="Web References\SCMServices\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-    <None Include="Web References\SCMServices\SyncData.wsdl" />
-    <None Include="Web References\WSCallCenter\CallCenter.wsdl" />
-    <None Include="Web References\WSCallCenter\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BaoCao\" />
     <Folder Include="bin\Release\" />
     <Folder Include="DanhMuc\" />
-    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.ico" />
@@ -382,7 +368,7 @@
     </Content>
     <Content Include="bin\Debug\UserMsg.xml" />
     <Content Include="C1.Win.C1FlexGrid.dll" />
-    <None Include="Web References\SCMServices\SyncData.disco" />
+    <None Include="Resources\images.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IPBusinessService\IPBusinessService.vbproj">
@@ -430,33 +416,6 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <WebReferences Include="Web References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <WebReferenceUrl Include="http://203.162.121.70:8080/TPCDialOut2/services/CallCenter%3fwsdl">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\WSCallCenter\</RelPath>
-      <UpdateFromURL>http://203.162.121.70:8080/TPCDialOut2/services/CallCenter%3fwsdl</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>TOSApp_WSCallCenter_CallCenterService</CachedSettingsPropName>
-    </WebReferenceUrl>
-    <WebReferenceUrl Include="http://210.245.89.37:88/SyncData.asmx">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\SCMServices\</RelPath>
-      <UpdateFromURL>http://210.245.89.37:88/SyncData.asmx</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>TICApp_SCMServices_SyncData</CachedSettingsPropName>
-    </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>
     <PublishFile Include="bin\Debug\NumOfMessage.XML">

@@ -130,6 +130,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_DS_HO_SO_THI_SINH.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DS_DS_KET_QUA_XET_TUYEN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DS_KET_QUA_XET_TUYEN.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_DS_NGANH_TO_HOP_MON.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -144,6 +149,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_DS_TO_HOP_MON.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_NGUOI_SU_DUNG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_NGUOI_SU_DUNG.xsd</DependentUpon>
     </Compile>
     <Compile Include="DS_USER_PASSWORD.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -191,6 +201,17 @@
     <None Include="DS_DS_HO_SO_THI_SINH.xss">
       <DependentUpon>DS_DS_HO_SO_THI_SINH.xsd</DependentUpon>
     </None>
+    <None Include="DS_DS_KET_QUA_XET_TUYEN.xsc">
+      <DependentUpon>DS_DS_KET_QUA_XET_TUYEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DS_KET_QUA_XET_TUYEN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DS_KET_QUA_XET_TUYEN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DS_KET_QUA_XET_TUYEN.xss">
+      <DependentUpon>DS_DS_KET_QUA_XET_TUYEN.xsd</DependentUpon>
+    </None>
     <None Include="DS_DS_NGANH_TO_HOP_MON.xsc">
       <DependentUpon>DS_DS_NGANH_TO_HOP_MON.xsd</DependentUpon>
     </None>
@@ -223,6 +244,17 @@
     </None>
     <None Include="DS_DS_TO_HOP_MON.xss">
       <DependentUpon>DS_DS_TO_HOP_MON.xsd</DependentUpon>
+    </None>
+    <None Include="DS_NGUOI_SU_DUNG.xsc">
+      <DependentUpon>DS_NGUOI_SU_DUNG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_NGUOI_SU_DUNG.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_NGUOI_SU_DUNG.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_NGUOI_SU_DUNG.xss">
+      <DependentUpon>DS_NGUOI_SU_DUNG.xsd</DependentUpon>
     </None>
     <None Include="DS_USER_PASSWORD.xsc">
       <DependentUpon>DS_USER_PASSWORD.xsd</DependentUpon>

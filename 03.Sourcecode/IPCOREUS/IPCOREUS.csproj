@@ -130,9 +130,11 @@
     <Compile Include="US_DM_DOI_TUONG.cs" />
     <Compile Include="US_DM_KHU_VUC.cs" />
     <Compile Include="US_DS_HO_SO_THI_SINH.cs" />
+    <Compile Include="US_DS_KET_QUA_XET_TUYEN.cs" />
     <Compile Include="US_DS_NGANH_TO_HOP_MON.cs" />
     <Compile Include="US_DS_NGUYEN_VONG.cs" />
     <Compile Include="US_DS_TO_HOP_MON.cs" />
+    <Compile Include="US_NGUOI_SU_DUNG.cs" />
     <Compile Include="US_USER_PASSWORD.cs" />
   </ItemGroup>
   <ItemGroup>

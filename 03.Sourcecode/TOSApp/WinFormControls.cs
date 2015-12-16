@@ -78,7 +78,7 @@ namespace TOSApp
             {
                 DataRow v_dr = v_ds.Tables[0].NewRow();
                 v_dr[0] = -1;
-                v_dr[1] = "------------Hãy chọn-----------";
+                v_dr[1] = "Tất cả";
                 v_ds.Tables[0].Rows.InsertAt(v_dr, 0);
                 ip_cbo.SelectedIndex = 0;
             }
@@ -105,7 +105,7 @@ namespace TOSApp
             {
                 DataRow v_dr = v_ds.Tables[0].NewRow();
                 v_dr[0] = -1;
-                v_dr[1] = "---------- Hãy chọn ----------";
+                v_dr[1] = "Tất cả";
                 v_ds.Tables[0].Rows.InsertAt(v_dr, 0);
                 ip_cbo.SelectedIndex = 0;
             }
@@ -202,6 +202,11 @@ namespace TOSApp
             v_cstore.addNVarcharInputParam("@v_str_ma_thi_sinh",v_ma_thi_sinh);
             v_cstore.fillDataSetByCommand(this, v_ds);
         }
+        public void XetTuyen()
+        {
+            CStoredProc v_cstore = new CStoredProc("get_ds_thi_sinh_trung_tuyen");
+            v_cstore.ExecuteCommand(this);
+        }
         public void FillDataSetMaThiSinhNguyenVong(DataSet v_ds, string v_ma_thi_sinh)
         {
             CStoredProc v_cstore = new CStoredProc("pr_check_ma_thi_sinh_dang_ky");
@@ -232,15 +237,14 @@ namespace TOSApp
             v_cstore.fillDataSetByCommand(this, op_ds);
         }
         
-        public void FillDatasetLogin(DataSet v_ds, string user, string pass, decimal id_chi_nhanh)
+        public void FillDatasetLogin(DataSet v_ds, string user, string pass)
         {
             CStoredProc v_cstore = new CStoredProc("check_login");
             v_cstore.addNVarcharInputParam("@user", user);
             v_cstore.addNVarcharInputParam("@pass", pass);
-            v_cstore.addDecimalInputParam("@id_chi_nhanh", id_chi_nhanh);
             v_cstore.fillDataSetByCommand(this, v_ds);
         }
-
+        
         internal void FillDatasetSQLInjection(DataSet v_ds, string p)
         {
             CStoredProc v_cstore = new CStoredProc("sqlInjection");

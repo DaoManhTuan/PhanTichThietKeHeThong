@@ -33,23 +33,5 @@ namespace TOSApp.Properties {
                 return ((string)(this["HTTS_DHBKConnectionString"]));
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://210.245.89.37:88/SyncData.asmx")]
-        public string TICApp_SCMServices_SyncData {
-            get {
-                return ((string)(this["TICApp_SCMServices_SyncData"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://203.162.121.70:8080/TPCDialOut2/services/CallCenter")]
-        public string TOSApp_WSCallCenter_CallCenterService {
-            get {
-                return ((string)(this["TOSApp_WSCallCenter_CallCenterService"]));
-            }
-        }
     }
 }

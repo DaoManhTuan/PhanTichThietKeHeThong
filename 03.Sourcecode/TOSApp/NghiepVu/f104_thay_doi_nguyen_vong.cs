@@ -11,13 +11,12 @@ using System.Windows.Forms;
 
 namespace TOSApp.NghiepVu
 {
-    public partial class f101_tiep_nhan_ho_so : Form
+    public partial class f104_thay_doi_nguyen_vong : Form
     {
-        public f101_tiep_nhan_ho_so()
+        public f104_thay_doi_nguyen_vong()
         {
             InitializeComponent();
         }
-
         decimal m_id = 0;
 
         private void f101_ho_so_thi_sinh_Load(object sender, EventArgs e)
@@ -53,10 +52,13 @@ namespace TOSApp.NghiepVu
         {
             try
             {
+                m_check_nv2.Checked = false;
+                m_check_nv3.Checked = false;
+                m_check_nv4.Checked = false;
                 US_DUNG_CHUNG v_us = new US_DUNG_CHUNG();
                 DataSet v_ds = new DataSet();
                 v_ds.Tables.Add(new DataTable());
-                v_us.FillDataSetMaThiSinh(v_ds, m_txt_ma_thi_sinh.Text);
+                v_us.FillDataSetMaThiSinhNguyenVong(v_ds, m_txt_ma_thi_sinh.Text);
                 if (v_ds.Tables[0].Rows.Count != 1)
                 {
                     MessageBox.Show("Mã thí sinh không tồn tại!");
@@ -66,15 +68,7 @@ namespace TOSApp.NghiepVu
                     load_data_to_thong_tin_thi_sinh(CIPConvert.ToDecimal(v_ds.Tables[0].Rows[0]["ID"].ToString()));
                     m_id = CIPConvert.ToDecimal(v_ds.Tables[0].Rows[0]["ID"].ToString());
                     load_data_2_grid(m_id);
-                    if (m_grv_diem_xet_tuyen.RowCount != 0)
-                    {
-                        m_cmd_tiep_nhan.Enabled = false;
-                    }
-                    else
-                    {
-                        m_cmd_tiep_nhan.Enabled = true;
-                    }
-
+                    load_data_2_thay_doi_nguyen_vong();
                 }
             }
             catch
@@ -82,6 +76,39 @@ namespace TOSApp.NghiepVu
                 MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
 
+        }
+
+        private void load_data_2_thay_doi_nguyen_vong()
+        {
+            for (int i = 0; i < m_grv_diem_xet_tuyen.RowCount; i++)
+            {
+                decimal v_id_nhom_nganh = CIPConvert.ToDecimal(m_grv_diem_xet_tuyen.GetDataRow(i)["ID_MA_NGANH"].ToString());
+                decimal v_id_nganh_to_hop_mon = CIPConvert.ToDecimal(m_grv_diem_xet_tuyen.GetDataRow(i)["ID_NGANH_TO_HOP_MON"].ToString());
+                decimal v_id_nguyen_vong = CIPConvert.ToDecimal(m_grv_diem_xet_tuyen.GetDataRow(i)["NGUYEN_VONG"].ToString());
+                if (v_id_nguyen_vong == 1)
+                {
+                    m_cbo_nhom_nganh_1.SelectedValue = v_id_nhom_nganh;
+                    m_cbo_to_hop_mon_1.SelectedValue = v_id_nganh_to_hop_mon;
+                }
+                if (v_id_nguyen_vong == 2)
+                {
+                    m_check_nv2.Checked = true;
+                    m_cbo_nhom_nganh_2.SelectedValue = v_id_nhom_nganh;
+                    m_cbo_to_hop_mon_2.SelectedValue = v_id_nganh_to_hop_mon;
+                }
+                if (v_id_nguyen_vong == 3)
+                {
+                    m_check_nv3.Checked = true;
+                    m_cbo_nhom_nganh_3.SelectedValue = v_id_nhom_nganh;
+                    m_cbo_to_hop_mon_3.SelectedValue = v_id_nganh_to_hop_mon;
+                }
+                if (v_id_nguyen_vong == 4)
+                {
+                    m_check_nv4.Checked = true;
+                    m_cbo_nhom_nganh_4.SelectedValue = v_id_nhom_nganh;
+                    m_cbo_to_hop_mon_4.SelectedValue = v_id_nganh_to_hop_mon;
+                }
+            }
         }
 
         private void load_data_to_thong_tin_thi_sinh(decimal v_id_thi_sinh)
@@ -112,53 +139,13 @@ namespace TOSApp.NghiepVu
                 m_check_dien_uu_tien.Checked = true;
         }
 
-        private void m_cmd_tiep_nhan_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (check_nguyen_vong())
-                {
-                    INSERT_nguyen_vong(CIPConvert.ToDecimal(m_cbo_to_hop_mon_1.SelectedValue.ToString()), 1);
-                    if (m_check_nv2.Checked)
-                    {
-                        INSERT_nguyen_vong(CIPConvert.ToDecimal(m_cbo_to_hop_mon_2.SelectedValue.ToString()), 2);
-                    }
-                    if (m_check_nv3.Checked)
-                    {
-                        INSERT_nguyen_vong(CIPConvert.ToDecimal(m_cbo_to_hop_mon_3.SelectedValue.ToString()), 3);
-                    }
-                    if (m_check_nv4.Checked)
-                    {
-                        INSERT_nguyen_vong(CIPConvert.ToDecimal(m_cbo_to_hop_mon_4.SelectedValue.ToString()), 4);
-                    }
-                    Insert_tai_khoan();
-                    MessageBox.Show("Thành công!");
-                    load_data_2_grid(m_id);
-                    m_cmd_tiep_nhan.Enabled = false;
-                }
-            }
-            catch
-            {
-                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
-            }
-        }
-
-        private void Insert_tai_khoan()
-        {
-            //thêm tài khoản cho thí sinh
-            US_USER_PASSWORD v_us = new US_USER_PASSWORD();
-            v_us.strTAI_KHOAN = m_txt_ma_thi_sinh.Text;
-            v_us.strMAT_KHAU = "1";
-            v_us.Insert();
-        }
-
         private void INSERT_nguyen_vong(decimal id_nganh_to_hop_mon, decimal nguyen_vong)
         {
             US_DS_NGUYEN_VONG v_us = new US_DS_NGUYEN_VONG();
             v_us.dcID_NGANH_TO_HOP_MON = id_nganh_to_hop_mon;
+            v_us.dcNGUYEN_VONG = nguyen_vong;
             US_DS_NGANH_TO_HOP_MON v_us_nganh_to_hop_mon = new US_DS_NGANH_TO_HOP_MON(id_nganh_to_hop_mon);
             v_us.dcDIEM_XT = User.GetDiemXetTuyen(m_id, v_us_nganh_to_hop_mon.dcID_TO_HOP_MON);
-            v_us.dcNGUYEN_VONG = nguyen_vong;
             v_us.dcID_THI_SINH = m_id;
             v_us.strTRANG_THAI_TRUNG_TUYEN = "N";
             v_us.Insert();
@@ -256,6 +243,52 @@ namespace TOSApp.NghiepVu
             {
                 m_cbo_nhom_nganh_4.Enabled = false;
                 m_cbo_to_hop_mon_4.Enabled = false;
+            }
+        }
+
+        private void m_cmd_luu_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (check_nguyen_vong())
+                {
+                    //delete nguyen_vong
+                    for (int i = 0; i < m_grv_diem_xet_tuyen.RowCount; i++)
+                    {
+                        US_DS_NGUYEN_VONG v_us = new US_DS_NGUYEN_VONG(CIPConvert.ToDecimal(m_grv_diem_xet_tuyen.GetDataRow(i)["ID"].ToString()));
+                        v_us.Delete();
+                    }
+                    //DELETE KET_QUA_XET_TUYEN
+                    US_DUNG_CHUNG v_us_dc = new US_DUNG_CHUNG();
+                    DataSet v_ds = new DataSet();
+                    v_ds.Tables.Add(new DataTable());
+                    v_us_dc.FillDatasetWithQuery(v_ds, "SELECT ID FROM DS_KET_QUA_XET_TUYEN WHERE ID_THI_SINH = " + m_id.ToString());
+                    for (int i = 0; i < v_ds.Tables[0].Rows.Count; i++)
+                    {
+                        US_DS_KET_QUA_XET_TUYEN v_us_kqxt = new US_DS_KET_QUA_XET_TUYEN(CIPConvert.ToDecimal(v_ds.Tables[0].Rows[0]["ID"].ToString()));
+                        v_us_kqxt.Delete();
+                    }
+                    // insert nguyện vọng
+                    INSERT_nguyen_vong(CIPConvert.ToDecimal(m_cbo_to_hop_mon_1.SelectedValue.ToString()), 1);
+                    if (m_check_nv2.Checked)
+                    {
+                        INSERT_nguyen_vong(CIPConvert.ToDecimal(m_cbo_to_hop_mon_2.SelectedValue.ToString()), 2);
+                    }
+                    if (m_check_nv3.Checked)
+                    {
+                        INSERT_nguyen_vong(CIPConvert.ToDecimal(m_cbo_to_hop_mon_3.SelectedValue.ToString()), 3);
+                    }
+                    if (m_check_nv4.Checked)
+                    {
+                        INSERT_nguyen_vong(CIPConvert.ToDecimal(m_cbo_to_hop_mon_4.SelectedValue.ToString()), 4);
+                    }
+                    MessageBox.Show("Thành công!");
+                    load_data_2_grid(m_id);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Đã xảy ra lỗi trong hệ thống!");
             }
         }
     }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f100_main));
             this.m_rib_main = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.m_cmd_tiep_nhan_ho_so = new DevExpress.XtraBars.BarButtonItem();
@@ -40,7 +41,9 @@
             this.m_rib_thay_doi_nguyen_vong = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.m_ribpag_thay_doi_nguyen_vong = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.m_rib_bao_cao = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.xtraTabbedMdiManager = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.m_rib_main)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager)).BeginInit();
             this.SuspendLayout();
             // 
             // m_rib_main
@@ -86,6 +89,7 @@
             this.m_cmd_ds_trung_tuyen.Id = 3;
             this.m_cmd_ds_trung_tuyen.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_ds_trung_tuyen.LargeGlyph")));
             this.m_cmd_ds_trung_tuyen.Name = "m_cmd_ds_trung_tuyen";
+            this.m_cmd_ds_trung_tuyen.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_ds_trung_tuyen_ItemClick);
             // 
             // m_cmd_thay_doi_nguyen_vong
             // 
@@ -94,6 +98,7 @@
             this.m_cmd_thay_doi_nguyen_vong.Id = 4;
             this.m_cmd_thay_doi_nguyen_vong.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("m_cmd_thay_doi_nguyen_vong.LargeGlyph")));
             this.m_cmd_thay_doi_nguyen_vong.Name = "m_cmd_thay_doi_nguyen_vong";
+            this.m_cmd_thay_doi_nguyen_vong.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_thay_doi_nguyen_vong_ItemClick);
             // 
             // m_rib_dang_ky_xet_tuyen
             // 
@@ -138,6 +143,10 @@
             this.m_rib_bao_cao.Name = "m_rib_bao_cao";
             this.m_rib_bao_cao.Text = "Báo cáo";
             // 
+            // xtraTabbedMdiManager
+            // 
+            this.xtraTabbedMdiManager.MdiParent = this;
+            // 
             // f100_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -149,6 +158,7 @@
             this.Text = "f100_main";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.m_rib_main)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,5 +177,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPage m_rib_thay_doi_nguyen_vong;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup m_ribpag_thay_doi_nguyen_vong;
         private DevExpress.XtraBars.Ribbon.RibbonPage m_rib_bao_cao;
+        private DevExpress.XtraTabbedMdi.XtraTabbedMdiManager xtraTabbedMdiManager;
     }
 }
