@@ -1,0 +1,172 @@
+﻿#m_lbl_user {
+    color: maroon;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+body {
+background-color:#e6e6e6;
+}
+
+#m_cmd_logout {
+    background-color: #9A0303;
+    background-image: linear-gradient(to bottom, #C30724, #750217);
+    border-radius: 4px;
+    border: 1px solid #D00606;
+    color: white;
+    padding: 3px 8px 1px 8px;
+    font-size: 13px;
+    display: inline;
+    font-weight: bold;
+}
+
+
+#m_grv {
+    border-collapse: collapse;
+    width: 90% !important;
+    margin-top: 40PX;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-bottom: auto;
+}
+
+#div_thong_tin_tai_khoan {
+    margin-top: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#m_lbl_title {
+    color: maroon;
+    text-align: center;
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 30px;
+    margin-top: 47px;
+}
+
+#m_grv_DXMainTable {
+    color: maroon;
+}
+
+#m_grv_DXHeadersRow0 td {
+    background-color: maroon;
+}
+
+#m_grv_DXHeadersRow0 table {
+    color: white;
+    text-align:center;
+}
+#m_lbl, #m_lbl_infor {
+color: maroon !important;
+font-weight : bold;
+}
+#m_lbl {
+font-size:20px;
+}
+
+
+
+#m_grv_col0 {
+    width: 12%;
+}
+
+#m_grv_col1 {
+    width: 22%;
+}
+
+
+#m_grv_col2 {
+    width: 6%;
+}
+
+#m_grv_col3 {
+    width: 12%;
+}
+
+#m_grv_col4 {
+    width: 22%;
+}
+
+#m_grv_col5 {
+    width: 6%;
+}
+
+#m_grv_col6 {
+    width: 6%;
+}
+
+
+.dxgvDataRow input {
+    background-color: #9A0303;
+    background-image: linear-gradient(to bottom, #C30724, #750217);
+    border-radius: 4px;
+    border: 1px solid #D00606;
+    color: white;
+    padding: 2px 8px 2px 8px;
+    font-size: 13px;
+    display: inline;
+    font-weight: bold;
+    height: 23px;
+}
+
+
+
+
+.D01 {
+    WIDTH: 80px;
+    height: 45px;
+    float: right;
+    padding: 6px 6px 0px 0px;
+    background-image: url(http://app.websomot.com:69/Image/7fe0fc48-2e4d-4a21-8bbc-bf4fd0e9b1da.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.D02 {
+    WIDTH: 80px;
+    height: 45px;
+    float: right;
+    padding: 6px 6px 0px 0px;
+    background-image: url(http://app.websomot.com:69/Image/6522a453-8e11-4768-930e-4ad72893898b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+D03{
+ WIDTH: 80px;
+    height: 45px;
+    float: right;
+    padding: 6px 6px 0px 0px;
+    background-image: url(http://app.websomot.com:69/Image/ad221342-33c0-46d2-84a0-907af24f13c8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+.D04{
+ WIDTH: 80px;
+    height: 45px;
+    float: right;
+    padding: 6px 6px 0px 0px;
+    background-image: url(http://app.websomot.com:69/Image/14a237f8-6177-459f-beb2-0adf2f1d6b8f.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+        }
+.D05{
+     WIDTH: 80px;
+    height: 45px;
+    float: right;
+    padding: 6px 6px 0px 0px;
+    background-image: url(http://app.websomot.com:69/Image/8df2d87f-03fd-4ede-a642-8f1767bdf939.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+        }
+
+ #m_lbl_ten_tieu_de_dai {
+    float: right;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: bold;
+    color: maroon;
+            }
