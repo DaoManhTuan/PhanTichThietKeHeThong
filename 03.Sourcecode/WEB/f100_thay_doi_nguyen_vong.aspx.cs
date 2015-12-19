@@ -324,7 +324,7 @@ namespace WEB
                 {
                     xoa_ket_qua_thi_sinh();
                     update_nguyen_vong(v_so_nguyen_vong);
-                    
+                    Response.Redirect("f100_thay_doi_nguyen_vong_.aspx");
 
                 }
                 else Response.Write("<script type=\"text/javascript\">alert('Hãy xem lại nguyện vọng!');</script>");

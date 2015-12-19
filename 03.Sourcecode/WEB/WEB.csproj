@@ -191,6 +191,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="f100_thay_doi_nguyen_vong.aspx" />
+    <Content Include="f100_thay_doi_nguyen_vong_.aspx" />
     <Content Include="f200_doi_mat_khau.aspx" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bachkhoahanoi1-tn.png" />
@@ -381,6 +382,13 @@
     </Compile>
     <Compile Include="f100_thay_doi_nguyen_vong.aspx.designer.cs">
       <DependentUpon>f100_thay_doi_nguyen_vong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="f100_thay_doi_nguyen_vong_.aspx.cs">
+      <DependentUpon>f100_thay_doi_nguyen_vong_.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="f100_thay_doi_nguyen_vong_.aspx.designer.cs">
+      <DependentUpon>f100_thay_doi_nguyen_vong_.aspx</DependentUpon>
     </Compile>
     <Compile Include="f200_doi_mat_khau.aspx.cs">
       <DependentUpon>f200_doi_mat_khau.aspx</DependentUpon>
